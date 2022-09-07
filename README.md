@@ -112,5 +112,11 @@
    1. The USB->Serial cable to the projector must be plugged in the left USB bank in order to work. This is because the python script opens the port on the TTYUSB0 device.
    2. The volume to the projector from the pi over HDMI isn’t very loud. When setting up the omxplayer in the python script, an argument is used to amplify the volume by 6000 millibels: “--amp 6000”
    3. Another omxplayer argument, “-o hdmi” specifies that the audio goes through hdmi. This will need to be changed if the audio device is ever different than the projector.
-4. **Operation:** 4. Plug in USB to turn on 5. Once booted and script has started, blue light turns on. The video player is opened and paused at the beginning. 6. Pressing the blue button turns on the projector. The blue button will blink while the projector is warming up. No buttons are operational while the blue light is blinking. 7. Once the projector is on and has found HDMI as the source, the blue light stops blinking. The other button lights are now illuminating signifying that they can now be pushed to control the movie. 8. Green button plays/pauses the movie. Red button seeks backwards 5 seconds. Yellow button seeks forward 5 seconds. 9. Pressing the blue button turns off the projector and resets the movie to the beginning, paused. It also disables the other 3 buttons.To turn off the RPi, press the following sequence: Yellow, Red, Yellow, Green, Red, Yellow, Green, Green
+4. **Operation:** 
+   1. Plug in USB to turn on 
+   2. Once booted and script has started, blue light turns on. The video player is opened and paused at the beginning. 
+   3. Pressing the blue button turns on the projector. The blue button will blink while the projector is warming up. No buttons are operational while the blue light is blinking. 
+   4. Once the projector is on and has found HDMI as the source, the blue light stops blinking. The other button lights are now illuminating signifying that they can now be pushed to control the movie. 
+   5. Green button plays/pauses the movie. Red button seeks backwards 5 seconds. Yellow button seeks forward 5 seconds. 
+   6. Pressing the blue button turns off the projector and resets the movie to the beginning, paused. It also disables the other 3 buttons.To turn off the RPi, press the following sequence: Yellow, Red, Yellow, Green, Red, Yellow, Green, Green
    This will shut off the projector and the raspberry pi. It can also be done if the projector is already off.
