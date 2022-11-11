@@ -1,6 +1,6 @@
 # About
 
-This python script was created to improve interactivity in an Escape Room. It is set up to run on a raspberry pi to interact with a projector through a serial connection and hdmi. The script allows for user input to the projector through pushing interactive buttons connected to the Raspberry Pi's GPIO board, and control the playback of an interactive video playing through HDMI on the projector.
+This python script was created to improve interactivity in an Escape Room. It is set up to run on a Raspberry Pi to interact with a projector through a serial connection and HDMI. The script allows for user input to the projector through pushing interactive buttons connected to the Raspberry Pi's GPIO board, and control the playback of an interactive video playing through HDMI on the projector.
 
 **The Mustache Thief Rpi/Projector Setup Information**
 
